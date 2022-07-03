@@ -96,8 +96,8 @@ Trip to Baikal
 | 12:10 - 14:00 | Lunch            |
 | 14:00 - 14:50 | **L. Lokutsievskii** (Lecture 3)        |
 | 14:50 - 15:10 | Coffee break     |
-| 15:10 - 17:30 | [Session 3](#se)        |
-| 17:30 - 18:00 | Closing ceremony |
+| 15:10 - 17:10 | [Session 3](#se)        |
+| 17:10 - 17:30 | Closing ceremony |
 
 # Mini courses
 
@@ -122,7 +122,7 @@ Trip to Baikal
 \vspace{-20pt}
 
 ### Optimal control 1 {#oc1}
-1. Fernando Lobo Pereira (Engineering Faculty of University of Porto, Portugal), Dmitry Karamzin (Federal Research Center Computer Science and Control RAS, Moscow, Russia). On the Issue of Normality in State-constrained Optimal Control Problems
+1. Alexander Strekalovsky (IDSCT SB RAS, Irkutsk, Russia). On Nonconvex Optimal Control Problems
 2. Dmitry Khlopin (IMM UrB RAS, Yekaterinburg, Russia). On Necessary Conditions if Limits are Minimized
 3. E. Ladeyshchikov (Lomonosov Moscow State University, Moscow, Russia), L. Lokutsievskiy (Steklov Mathematical Institute RAS, Moscow, Russia). Time-optimal Problem on a Three-dimensional Heisenberg Group
 4. Ivan Osipov (IMM UrB RAS, Yekaterinburg, Russia). On the Linearization Method in Small-time Control Synthesis
@@ -193,12 +193,12 @@ Trip to Baikal
 5. Pavel Petrenko (IDSCT SB RAS, Irkutsk, Russia). A Note on Differential-algebraic Equations with Hysteresis Phenomena
 
 ### Optimization 1 {#o1}
-1. Alexander Strekalovsky (IDSCT SB RAS, Irkutsk, Russia). On Nonconvex Optimal Control Problems
-2. Bazaragchaa Barsbold (School of Engineering and Applied Sciences, National University of Mongolia, Ulaanbaatar, Mongolia), Balkhuu Batbayasgalan, Dovdon Batsuuri, Dorjkhuu Enkhtaivan. A Sequential Approach to a Minimum Norm Partial Pole Assignment Problem
-3. Andrei V. Orlov (IDSCT SB RAS, Irkutsk, Russia). On a Local Search Method for Bilevel Optimization Problems with an Equilibrium at the Lower Level
-4. Anton Anikin (IDSCT SB RAS, Irkutsk, Russia). About One Modification of Broyden-family Quasi-Newton Methods
-5. Pavel Sorokovikov (IDSCT SB RAS, Irkutsk, Russia). Combined algorithms based on bioinspired and local search methods for solving multiextremal optimization problems
-6. Vsevolod Voronov, Viktoria Svistunova (Caucasus Mathematical Center of ASU, Maikop, Russia). Optimization of sphere partitions and estimates of the chromatic number for a forbidden interval of distances
+1. Bazaragchaa Barsbold (School of Engineering and Applied Sciences, National University of Mongolia, Ulaanbaatar, Mongolia), Balkhuu Batbayasgalan, Dovdon Batsuuri, Dorjkhuu Enkhtaivan. A Sequential Approach to a Minimum Norm Partial Pole Assignment Problem
+2. Andrei V. Orlov (IDSCT SB RAS, Irkutsk, Russia). On a Local Search Method for Bilevel Optimization Problems with an Equilibrium at the Lower Level
+3. Anton Anikin (IDSCT SB RAS, Irkutsk, Russia). About One Modification of Broyden-family Quasi-Newton Methods
+4. Pavel Sorokovikov (IDSCT SB RAS, Irkutsk, Russia). Combined algorithms based on bioinspired and local search methods for solving multiextremal optimization problems
+5. Vsevolod Voronov, Viktoria Svistunova (Caucasus Mathematical Center of ASU, Maikop, Russia). Optimization of sphere partitions and estimates of the chromatic number for a forbidden interval of distances
+6. `r icons::fontawesome("video")`Sergey Kabanikhin (Novosibirsk State University, Novosibirsk, Russia). Nonlinear Inverse Problems and Optimization
 
 ### Optimization 2 {#o2}
 1. `r icons::fontawesome("video")`Valentin Gorokhovik (Institute of Mathematics of the National Academy of Sciences of Belarus, Minsk, Belarus). Separation of Convex Sets by Halfspaces with Applications to Convex Optimization Problems
@@ -207,7 +207,6 @@ Trip to Baikal
 4. `r icons::fontawesome("video")`Vadim Zizov (Lomonosov Moscow State University, Moscow, Russia). Lower Bounds for Area Complexity of Decoder in Model of Cellular Circuits
 5. `r icons::fontawesome("video")`Akmal Mamatov, Islom Ravshanov (Samarkand state university, Samarkand, Uzbekistan). Algorithm for solving one maximin problem with connected variables
 6. `r icons::fontawesome("video")`Akmal Mamatov (Samarkand state university, Samarkand, Uzbekistan). On the Theory of Game Problems with Connected Variables
-7. `r icons::fontawesome("video")`Sergey Kabanikhin (Novosibirsk State University, Novosibirsk, Russia). Nonlinear Inverse Problems and Optimization
 
 ### Analysis and control in the space of measures {#meas}
 1. Dmitrii Serkov, Alexander Chentsov (IMM UrB RAS, Yekaterinburg, Russia). On a property of continuous dependence of sets in the space of measures
@@ -215,6 +214,7 @@ Trip to Baikal
 3. Olga Yufereva (IMM UrB RAS, Yekaterinburg, Russia), Michael Persiianov, Pavel Dvurechensky, Alexander Gasnikov, Dmitry Kovalev. Decentralized Computation of Wasserstein Barycenter over Time-Varying Networks
 4. Nikolay Podogaev (IDSCT SB RAS, Irkutsk, Russia), Maxim Staritsyn. TBA
 5. Nikolay Pogodaev, Maxim Staritsyn (IDSCT SB RAS, Irkutsk, Russia), Fernando Lobo Pereira. TBA  
+
 
 ### Quantum control {#qc}
 1. `r icons::fontawesome("video")`Oleg V. Morzhin (Steklov Mathematical Institute RAS, National University of Science and Technology “MISiS”, Moscow, Russia). On Optimizing Coherent and Incoherent Controls in Some Open Quantum Systems
