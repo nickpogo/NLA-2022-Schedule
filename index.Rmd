@@ -1,0 +1,227 @@
+---
+title: "SCHEDULE"
+subtitle: "Nonlinear analysis and extremal problems (NLA-2022)"
+
+output: 
+#  html_document
+  distill::distill_article
+  
+#output:
+#  pdf_document:
+#    keep_tex: true
+#header-includes:
+#    - \usepackage[T2A]{fontenc}
+#    - \usepackage[utf8]{inputenc}
+#    - \usepackage[russian]{babel}
+#    - \usepackage{hyperref}
+#    - \hypersetup{colorlinks = false,pdfborder={1 1 1}}
+    
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+\vspace{-25pt}
+
+# Timetable
+### July 15, Friday
+
+| Time          | Activity          |
+| ------------- | ----------------- |
+| 9:00 - 11:00  | Registration      |
+| 11:00 - 11:10 | Opening ceremony  |
+| 11:10 - 12:00 | **A. Kruger** (Lecture 1)        |
+| 12:00 - 14:00 | Lunch             |
+| 14:00 - 14:50 | **G. Magaril-Il’yaev** (Lecture 1)         |
+| 14:50 - 15:10 | Coffee break      |
+| 15:10 - 16:00 | **G. Magaril-Il’yaev** (Lecture 2)        |
+| 16:00 - 16:30 | Coffee break      |
+| 16:30 - 18:30 | [Sessions](#se)          |
+| 18:30         | Welcome reception | 
+
+### July 16, Saturday
+
+| Time          | Activity     |
+| ------------- | ------------ |
+| 10:00 - 10:50 | **V. Bogachev** (Lecture 1)    |
+| 10:50 - 11:10 | Coffee break |
+| 11:10 - 12:00 | **S. Shaposhnikov** (Lecture 1)    |
+| 12:00 - 14:00 | Lunch        |
+| 14:00 - 14:50 | **A. Kruger** (Lecture 2)    |
+| 14:50 - 15:10 | Coffee break |
+| 15:10 - 16:00 | **A. Kruger** (Lecture 3)    |
+| 16:00 - 16:30 | Coffee break |
+| 16:30 - 18:30 | [Sessions](#se)     |
+
+### July 17, Sunday
+
+| Time          | Activity     |
+| ------------- | ------------ |
+| 10:00 - 10:50 | **V. Bogachev** (Lecture 2)    |
+| 10:50 - 11:10 | Coffee break |
+| 11:10 - 12:00 | **V. Bogachev** (Lecture 3)    |
+| 12:00 - 14:00 | Lunch        |
+| 14:00 - 14:50 | **S. Shaposhnikov** (Lecture 2)    |
+| 14:50 - 15:10 | Coffee break |
+| 15:10 - 16:00 | **S. Shaposhnikov** (Lecture 3)    |
+| 16:00 - 16:30 | Coffee break |
+| 16:30 - 18:30 | [Sessions](#se)     |
+
+
+### July 18, Monday
+Trip to Baikal
+
+### July 19, Tuesday
+
+| Time          | Activity     |
+| ------------- | ------------ |
+| 9:00 - 9:50   | **B. Mordukhovich** (Lecture 1)    |
+| 9:50 - 10:10  | Coffee break |
+| 10:10 - 11:00 | **B. Mordukhovich** (Lecture 2)    |
+| 11:00 - 14:00 | Lunch        |
+| 14:00 - 14:50 | **L. Lokutsievskii** (Lecture 1)    |
+| 14:50 - 15:10 | Coffee break |
+| 15:10 - 16:00 | **L. Lokutsievskii** (Lecture 2)    |
+| 16:00 - 16:30 | Coffee break |
+| 16:30 - 18:30 | [Sessions](#se)     |
+
+### July 20, Wednesday
+
+| Time          | Activity         |
+| ------------- | ---------------- |
+| 9:00 - 9:50   | **B. Mordukhovich** (Lecture 3)        |
+| 9:50 - 10:10  | Coffee break     |
+| 10:10 - 12:10 | [Session 2](#se)        |
+| 12:10 - 14:00 | Lunch            |
+| 14:00 - 14:50 | **L. Lokutsievskii** (Lecture 3)        |
+| 14:50 - 15:10 | Coffee break     |
+| 15:10 - 17:30 | [Session 3](#se)        |
+| 17:30 - 18:00 | Closing ceremony |
+
+# Mini courses
+
+1. **Alexander Kruger**. Variational analysis and optimization theory: selected topics.
+2. **Georgii Magaril-Il’yaev**. Controllability and optimality.
+3. **Vladimir Bogachev**. Geometry and topology of the spaces of measures.
+4. **Stanislav Shaposhnikov**. Nonlinear Fokker-Planck-Kolmogorov equations.
+5. **Boris Mordukhovich**. Optimal control of sweeping processes
+6. **Lev Lokutsievskii**. Introduction to sub-Riemannian and sub-Finsler geometries from the optimal control viewpoint.
+\newpage
+
+# Sessions {#se}
+| Day                | Session 1 (Room A)                                    | Session 2 (Room B)                                                  | Session 3 (Room C)                                     |
+| ------------------ | ----------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------ |
+| July 15, Friday    | [Optimal control 1](#oc1) | [Differential equations 1](#de1) | [Optimization 1](#o1)| 
+| July 16, Saturday  | [Analysis and control in the space of measures](#meas)     | [Differential equations: applications 1](#dea1)                           | [Differential equations 2](#de2)            |
+| July 17, Sunday    | [Quantum control](#qc)                                  | [Optimal control 2](#oc2)                               | [Differential equations 3](#de3)            |
+| July 18, Monday    | Trip to Baikal                                        | Trip to Baikal                                                      | Trip to Baikal                                         |
+| July 19, Tuesday   |                                                       | [Optimal control 3](#oc3)                               | [Differential equations: applications 2](#dea2)              |
+| July 20, Wednesday |                                                       | [Differential-algebraic equations](#dae)         | [Optimization 2](#o2) |
+
+\vspace{-20pt}
+
+### Optimal control 1 {#oc1}
+1. Fernando Lobo Pereira (Engineering Faculty of University of Porto, Portugal), Dmitry Karamzin (Federal Research Center Computer Science and Control RAS, Moscow, Russia). On the Issue of Normality in State-constrained Optimal Control Problems
+2. Dmitry Khlopin (IMM UrB RAS, Yekaterinburg, Russia). On Necessary Conditions if Limits are Minimized
+3. E. Ladeyshchikov (Lomonosov Moscow State University, Moscow, Russia), L. Lokutsievskiy (Steklov Mathematical Institute RAS, Moscow, Russia). Time-optimal Problem on a Three-dimensional Heisenberg Group
+4. Ivan Osipov (IMM UrB RAS, Yekaterinburg, Russia). On the Linearization Method in Small-time Control Synthesis
+5. Vasilii Zaitsev, Inna Kim (UdSU, Izhevsk, Russia). On matrix eigenvalue spectrum assignment for high-order linear systems by static output feedback
+6. `r icons::fontawesome("video")`V.I. Berdyshev, V.B. Kostousov, A.A. Popov (IMM UrB RAS, Yekaterinburg, Russia). Optimal Object Trajectories under Unfriendly Observation
+
+### Optimal control 2 {#oc2}
+1. Alexander Tyatyushkin (IDSCT SB RAS, Irkutsk, Russia). Control optimization in systems with phase constraints
+2. Gornov A.Y., Zarodnyuk T.S. (IDSCT SB RAS, Irkutsk, Russia). The Modiﬁed Monowave Method for the Reachable Set Approximation of the Nonlinear Controlled System on the Plane
+3. Olga Samsonyuk (IDSCT SB RAS, Irkutsk, Russia). TBA
+4. `r icons::fontawesome("video")`Alexey N. Rogalev (Institute of computing modelling SB RAS, Krasnoyarsk, Russia). Numerical Estimation of the Boundaries of the Reachability Sets of Controlled Systems Based on Symbolic Formulas
+5. `r icons::fontawesome("video")`Nyurgun Lazarev (North-Eastern Federal University, Yakutsk, Russia). Optimal Location of Rigid Inclusions in Contact Problems for Inhomogeneous Two-dimensional Bodies
+6. `r icons::fontawesome("video")`Igor' Izmest'ev (IMM UrB RAS, Yekaterinburg, Russia). Grid Algorithm for Computing Reachability Sets with a Modified Reduction Procedure
+
+### Optimal control 3 {#oc3}
+1. Vladimir Dykhta (IDSCT SB RAS, Irkutsk, Russia). TBA
+2. Nina N. Subbotina, Evgenii F. Krupennikov (IMM UrB RAS, UrFU, Ekaterinburg, Russia).   Stationary points of d.c. Lagrangians in solving inverse problems of the control theory
+3. Boris Ananyev, Polina Yurovskikh (IMM UrB RAS, Yekaterinburg, Russia). Estimation Problem for Discrete Systems with Information Delays
+4. `r icons::fontawesome("video")`Lyubov Shagalova (IMM UrB RAS, Yekaterinburg, Russia). On the Solution of the Hamilton-Jacobi Equation with State Constraints Given by Zeros of the Coefficients at the Exponential Terms of the Hamiltonian
+5. `r icons::fontawesome("video")`Ilya Chupin, Dolgii Yurii (Ural Federal university, Ekaterinburg, Russia). Optimal Control of Manipulator
+6. Alexander Arguchintsev, Vasilisa Poplevko (Institute of Mathematics and Information Technologies, Irkutsk State University, Irkutsk, Russia). Variational Optimality Condition in Control of Hyperbolic Systems with Boundary Delay Parameters
+
+### Differential equations 1 {#de1}
+1. Gennadii Demidenko (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). Existence of Periodic Solutions for One Class of Systems of Differential Equations
+2. Inessa Matveeva (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). Estimates for Solutions to Some Classes of Nonautonomous Nonlinear Time-delay Systems
+3. Valery Gaiko (United Institute of Informatics Problems, National Academy of Sciences of Belarus). Catastrophe Theory and Global Bifurcations of Limit Cycles
+4. Andrey Muravnik (S.M. Nikol'skii Mathematical Institute of RUDN, Moscow, Russia). Qualitative theory of equations and inequalities with KPZ-nonlinearities
+5. `r icons::fontawesome("video")`Vyacheslav V. Provotorov (Voronezh State University, Voronezh, Russia), Semen L. Podvalny (Voronezh State Technical University, Voronezh, Russia). Navier-Stokes Evolutionary System with Spatial Variable in a Network-like Domain
+6. `r icons::fontawesome("video")`Maxim V. Shamolin (Lomonosov Moscow State University, Moscow, Russia). Tensor Invariants of Dynamical Systems with Dissipation
+
+### Differential equations 2 {#de2}
+1. Alexander Kosov, Edward Semenov (IDSCT SB RAS, Irkutsk, Russia). On Exact Solutions of Equations Used in Modeling the Motion of Distributed Formations
+2. Ivan A. Finogenko (IDSCT SB RAS, Irkutsk, Russia). Method of Limiting Differential Inclusions for Discontinuous Systems
+3. Elena Chistyakova (IDSCT SB RAS, Irkutsk, Russia). Solving a Heat Mass Transfer Problem Using Differential Algebraic Equations
+4. V.F. Chistyakov (IDSCT SB RAS, Irkutsk, Russia). On the Reduction of a Singular Linear-quadratic Control Problem to the Problem of Calculus of Variations
+5. M.V. Artemeva, M.O. Korpusov. (Lomonosov Moscow State University, Moscow, Russia). Blow up of Solutions and Local Solvability of an Abstract Cauchy Problem for Second-order Differential Equation with a Non-coercive Source
+6. Nikolay Sidorov, Lev Sidorov (ISU, Irkutsk, Russia). On the Spectrum of One Class of Integral-Functional Operators in Solving Nonlinear Volterra Loaded Equations
+
+### Differential equations 3 {#de3}
+1. `r icons::fontawesome("video")`Lina Bondar (IM SO RAN, Novosibirsk, Russia), Sanzhar Mingnarov (NSU, Novosibirsk, Russia). On solvability of the Cauchy problem for one pseudohyperbolic system
+2. `r icons::fontawesome("video")`Nikita O. Ivanov (RUDN University, Moscow, Russia). On Generalized Solutions of the Second Boundary Value Problem for Differential-difference Equations with Variable Coefficients
+3. `r icons::fontawesome("video")`V. Obukhovskii, G. Petrosyan, M. Soroka (Voronezh State Pedagogical University, Voronezh State University of Engineering Technologies, Voronezh, Russia). On the Solvability of a Nonlocal Boundary Value Problem for Fractional Differential Inclusions with Causal Multioperators
+4. `r icons::fontawesome("video")`E.I. Zotova, R.D. Murtazina (USATU, Ufa, Russia). Laplace Cascade method
+5. `r icons::fontawesome("video")`Andrey Osipov (Federal State Institution “Scientific-Research Institute for System Analysis of the Russian Academy of Sciences”, Moscow, Russia). On an inverse spectral problem for band operators and nonlinear lattices
+6. `r icons::fontawesome("video")`Anatoly Aristov (MSU, Moscow, Russia). Exact Solutions of a Nonclassical Nonlinear Partial Differential Equation
+
+### Differential equations: applications 1 {#dea1}
+1. Maria Skvortsova (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). On a model of population dynamics with several delays
+2. Evgeny Rudoy (Sobolev Institute of Mathematics of SB RAS, Lavrentyev Institute of Hydrodynamics SB RAS, Novosibirsk, Russia). Asymptotic Modeling of Interfaces in Kirchhoff-Love’s Plates Theory
+3. Pavel Kuznetsov, Alexander Kazakov (IDSCT SB RAS, Irkutsk, Russia). On Analytical Solvability of the Problem with a Given Zero Front for the Nonlinear Parabolic Predator-Prey System
+4. `r icons::fontawesome("video")`Yulia O. Koroleva (Gubkin State University of Oil and Gas, HSE, Moscow, Russia). On the Weak Solution of the Electro-Hydrodynamical Boundary Value Problem for the Unit Cell of Cation-exchange Membrane
+5. `r icons::fontawesome("video")`Mariia I. Delova, Olga S. Rozanova (Lomonosov Moscow State University, Moscow, Russia). On Multidimensional Oscillations of a Cold Plasma with Account for Electron-ion Collisions
+6. `r icons::fontawesome("video")`Viktor Korzyuk, Jan Rudzko (Belarusian State University, Minsk, Belarus). Classical Solution of the First Mixed Problem for the Telegraph Equation with a Nonlinear Potential
+
+### Differential equations: applications 2 {#dea2}
+1. `r icons::fontawesome("video")`Tamara G. Sukacheva (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). Oskolkov models and Sobolev-type equations in magnetohydrodynamics
+2. `r icons::fontawesome("video")`Aleksey O. Kondyukov (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). The First Initial-boundary Value Problem for Oskolkov System of Nonzero Order
+3. `r icons::fontawesome("video")`Alexandre Demidov (MSU, Moscow, Russia). Planar Flows with Minimal Ratio of the Extremal Values of the Pressure on the Free Boundary
+4. `r icons::fontawesome("video")`Ushakov A.L. (South Ural State University (National Research University), Chelyabinsk, Russia). Nonlinear Analysis Mixed Boundary Value Problem for the Sophie Germain Equation
+5. `r icons::fontawesome("video")`A.A. Mukhutdinova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia), A.D. Nizamova, V.N. Kireev,   S.F. Urmancheev. Spectral Analysis of the Stability of Fluid Flow in an Annular Channel
+6. `r icons::fontawesome("video")`E.R. Shaihiev (USATU, Ufa, Russia), A.D. Nizamova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia). Fluid Storage Control with a Proportional-integrally Differentiating Solver
+
+### Differential-algebraic equations {#dae}
+1. Ekaterina Antipina (Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia), Mikhail Bulatov (IDSCT SB RAS, Irkutsk, Russia), Vitaly Biryukov. Block Integral Methods for the Numerical Solution of the Volterra Equation of the First Kind
+2. Svetlana Svinina (IDSCT SB RAS, Irkutsk, Russia). On the numerical solution of some linear multidimensional differential-algebraic systems
+3. Liubov Solovarova (ISDCT SB RAS, Irkutsk, Russia), Ta Duy Phuong. On numerical solution of the second order differential-algebraic equations
+4. Щеглова Алла Аркадьевна. Импульсная переходная матрица системы дифференциально-алгебраических уравнений
+5. Pavel Petrenko (IDSCT SB RAS, Irkutsk, Russia). A Note on Differential-algebraic Equations with Hysteresis Phenomena
+
+### Optimization 1 {#o1}
+1. Alexander Strekalovsky (IDSCT SB RAS, Irkutsk, Russia). On Nonconvex Optimal Control Problems
+2. Bazaragchaa Barsbold (School of Engineering and Applied Sciences, National University of Mongolia, Ulaanbaatar, Mongolia), Balkhuu Batbayasgalan, Dovdon Batsuuri, Dorjkhuu Enkhtaivan. A Sequential Approach to a Minimum Norm Partial Pole Assignment Problem
+3. Andrei V. Orlov (IDSCT SB RAS, Irkutsk, Russia). On a Local Search Method for Bilevel Optimization Problems with an Equilibrium at the Lower Level
+4. Anton Anikin (IDSCT SB RAS, Irkutsk, Russia). About One Modification of Broyden-family Quasi-Newton Methods
+5. Pavel Sorokovikov (IDSCT SB RAS, Irkutsk, Russia). Combined algorithms based on bioinspired and local search methods for solving multiextremal optimization problems
+6. Vsevolod Voronov, Viktoria Svistunova (Caucasus Mathematical Center of ASU, Maikop, Russia). Optimization of sphere partitions and estimates of the chromatic number for a forbidden interval of distances
+
+### Optimization 2 {#o2}
+1. `r icons::fontawesome("video")`Valentin Gorokhovik (Institute of Mathematics of the National Academy of Sciences of Belarus, Minsk, Belarus). Separation of Convex Sets by Halfspaces with Applications to Convex Optimization Problems
+2. `r icons::fontawesome("video")`Igor Zabotin, Oksana Shulgina, Rashid Yarullin (Kazan (Volga region) Federal University, Kazan, Russia). One variant of the Two-Stage Cutting-Plane Method
+3. `r icons::fontawesome("video")`Igor Prudnikov (Scientific Center of Smolensk State Medical University, Smolensk, Russia). Constructions of the subdifferentials and codifferentials
+4. `r icons::fontawesome("video")`Vadim Zizov (Lomonosov Moscow State University, Moscow, Russia). Lower Bounds for Area Complexity of Decoder in Model of Cellular Circuits
+5. `r icons::fontawesome("video")`Akmal Mamatov, Islom Ravshanov (Samarkand state university, Samarkand, Uzbekistan). Algorithm for solving one maximin problem with connected variables
+6. `r icons::fontawesome("video")`Akmal Mamatov (Samarkand state university, Samarkand, Uzbekistan). On the Theory of Game Problems with Connected Variables
+7. `r icons::fontawesome("video")`Sergey Kabanikhin (Novosibirsk State University, Novosibirsk, Russia). Nonlinear Inverse Problems and Optimization
+
+### Analysis and control in the space of measures {#meas}
+1. Dmitrii Serkov, Alexander Chentsov (IMM UrB RAS, Yekaterinburg, Russia). On a property of continuous dependence of sets in the space of measures
+2. Yurii Averboukh,  Dmitry Khlopin (IMM UrB RAS, Yekaterinburg, Russia). Necessary optimality condition for deterministic mean field type control problem
+3. Olga Yufereva (IMM UrB RAS, Yekaterinburg, Russia), Michael Persiianov, Pavel Dvurechensky, Alexander Gasnikov, Dmitry Kovalev. Decentralized Computation of Wasserstein Barycenter over Time-Varying Networks
+4. Nikolay Podogaev (IDSCT SB RAS, Irkutsk, Russia), Maxim Staritsyn. TBA
+5. Nikolay Pogodaev, Maxim Staritsyn (IDSCT SB RAS, Irkutsk, Russia), Fernando Lobo Pereira. TBA  
+
+### Quantum control {#qc}
+1. `r icons::fontawesome("video")`Oleg V. Morzhin (Steklov Mathematical Institute RAS, National University of Science and Technology “MISiS”, Moscow, Russia). On Optimizing Coherent and Incoherent Controls in Some Open Quantum Systems
+2. Boris Volkov (Steklov Mathematical Institute RAS, Moscow, Russia), Alexander Pechen. Traps in quantum control landscapes
+3. `r icons::fontawesome("video")`Vadim Petruhanov (Steklov Mathematical Institute RAS, Moscow, Russia, Moscow Institute of Physics and Technology, Dolgoprudny, Russia), Alexander Pechen. GRAPE Method for Open Quantum Systems Driven by Coherent and Incoherent Controls
+4. Anastasia A. Myachkova (Steklov Mathematical Institute RAS, Moscow, Russia), Alexander N. Pechen. Analysis of the controllability criteria for some degenerate four-level quantum systems
+5. Sergey Kuznetsov, Alexander Pechen (Steklov Mathematical Institute RAS, Moscow, Russia). On Controllability of a Highly Degenerate Four-level Quantum System with a «Chained» Coupling Hamiltonian
+
+
+
