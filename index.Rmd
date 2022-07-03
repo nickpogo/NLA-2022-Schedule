@@ -80,9 +80,9 @@ Trip to Baikal
 | 9:50 - 10:10  | Coffee break |
 | 10:10 - 11:00 | **B. Mordukhovich** (Lecture 2)    |
 | 11:00 - 14:00 | Lunch        |
-| 14:00 - 14:50 | **L. Lokutsievskii** (Lecture 1)    |
+| 14:00 - 14:50 | **L.  Lokutsievskiy** (Lecture 1)    |
 | 14:50 - 15:10 | Coffee break |
-| 15:10 - 16:00 | **L. Lokutsievskii** (Lecture 2)    |
+| 15:10 - 16:00 | **L.  Lokutsievskiy** (Lecture 2)    |
 | 16:00 - 16:30 | Coffee break |
 | 16:30 - 18:30 | [Sessions](#se)     |
 
@@ -94,7 +94,7 @@ Trip to Baikal
 | 9:50 - 10:10  | Coffee break     |
 | 10:10 - 12:10 | [Session 2](#se)        |
 | 12:10 - 14:00 | Lunch            |
-| 14:00 - 14:50 | **L. Lokutsievskii** (Lecture 3)        |
+| 14:00 - 14:50 | **L.  Lokutsievskiy** (Lecture 3)        |
 | 14:50 - 15:10 | Coffee break     |
 | 15:10 - 17:10 | [Session 3](#se)        |
 | 17:10 - 17:30 | Closing ceremony |
@@ -106,7 +106,7 @@ Trip to Baikal
 3. **Vladimir Bogachev**. Geometry and topology of the spaces of measures.
 4. **Stanislav Shaposhnikov**. Nonlinear Fokker-Planck-Kolmogorov equations.
 5. **Boris Mordukhovich**. Optimal control of sweeping processes
-6. **Lev Lokutsievskii**. Introduction to sub-Riemannian and sub-Finsler geometries from the optimal control viewpoint.
+6. **Lev  Lokutsievskiy**. Introduction to sub-Riemannian and sub-Finsler geometries from the optimal control viewpoint.
 \newpage
 
 # Sessions {#se}
