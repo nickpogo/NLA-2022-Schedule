@@ -167,7 +167,7 @@ Trip to Baikal
 1. Alexander Kosov, Edward Semenov (IDSCT SB RAS, Irkutsk, Russia). On Exact Solutions of Equations Used in Modeling the Motion of Distributed Formations.
 2. Ivan A. Finogenko (IDSCT SB RAS, Irkutsk, Russia). Method of Limiting Differential Inclusions for Discontinuous Systems.
 3. Elena Chistyakova (IDSCT SB RAS, Irkutsk, Russia). Solving a Heat Mass Transfer Problem Using Differential Algebraic Equations.
-4. Timur Yskak (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia).    About Exponential Stability of Solutions to Systems of Differential Equations of Neutral Type with Distributed Delayю
+4. Timur Yskak (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia).    About Exponential Stability of Solutions to Systems of Differential Equations of Neutral Type with Distributed Delay.
 5. Margarita V. Artemeva, M.O. Korpusov. (Lomonosov Moscow State University, Moscow, Russia). Blow up of Solutions and Local Solvability of an Abstract Cauchy Problem for Second-order Differential Equation with a Non-coercive Source.
 6. Nikolay Sidorov, Lev Sidorov (ISU, Irkutsk, Russia). On the Spectrum of One Class of Integral-Functional Operators in Solving Nonlinear Volterra Loaded Equations.
 
