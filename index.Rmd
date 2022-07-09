@@ -150,13 +150,14 @@ Trip to Baikal
 4. Alexander Arguchintsev, Vasilisa Poplevko (Institute of Mathematics and Information Technologies, Irkutsk State University, Irkutsk, Russia). Variational Optimality Condition in Control of Hyperbolic Systems with Boundary Delay Parameters.
 5. `r icons::fontawesome("video")` Lyubov Shagalova (IMM UrB RAS, Yekaterinburg, Russia). On the Solution of the Hamilton-Jacobi Equation with State Constraints Given by Zeros of the Coefficients at the Exponential Terms of the Hamiltonian.
 6. `r icons::fontawesome("video")` Ilya Chupin, Yurii Dolgii (Ural Federal university, Ekaterinburg, Russia). Optimal Control of Manipulator.
+7. `r icons::fontawesome("video")` Vladimir A. Dubovitskij  (Institute of Problems of Chemical Physics, Chernogolovka, Russia).  On the Right Invertibility of the Differential for the Equality Constraint Operator and the Implicit Function Theorem in a General Optimal Control Problem
 
 ### Differential equations 1 {#de1}
-**Chairs**: Gennadii Demidenko, Valery Gaiko.
+**Chairs**: Inessa Matveeva, Valery Gaiko.
 
-1. Gennadii Demidenko (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). Existence of Periodic Solutions for One Class of Systems of Differential Equations.
-2. Inessa Matveeva (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). Estimates for Solutions to Some Classes of Nonautonomous Nonlinear Time-delay Systems.
-3. Valery Gaiko (United Institute of Informatics Problems, National Academy of Sciences of Belarus). Catastrophe Theory and Global Bifurcations of Limit Cycles.
+1. Inessa Matveeva (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia). Estimates for Solutions to Some Classes of Nonautonomous Nonlinear Time-delay Systems.
+2. Valery Gaiko (United Institute of Informatics Problems, National Academy of Sciences of Belarus). Catastrophe Theory and Global Bifurcations of Limit Cycles.
+3. Elena Chistyakova (IDSCT SB RAS, Irkutsk, Russia). Solving a Heat Mass Transfer Problem Using Differential Algebraic Equations.
 4. Andrey Muravnik (S.M. Nikol'skii Mathematical Institute of RUDN, Moscow, Russia). Qualitative theory of equations and inequalities with KPZ-nonlinearities.
 5. `r icons::fontawesome("video")` Vyacheslav V. Provotorov (Voronezh State University, Voronezh, Russia), Semen L. Podvalny (Voronezh State Technical University, Voronezh, Russia). Navier-Stokes Evolutionary System with Spatial Variable in a Network-like Domain.
 6. `r icons::fontawesome("video")` Maxim V. Shamolin (Lomonosov Moscow State University, Moscow, Russia). Tensor Invariants of Dynamical Systems with Dissipation.
@@ -166,10 +167,10 @@ Trip to Baikal
 
 1. Alexander Kosov, Edward Semenov (IDSCT SB RAS, Irkutsk, Russia). On Exact Solutions of Equations Used in Modeling the Motion of Distributed Formations.
 2. Ivan A. Finogenko (IDSCT SB RAS, Irkutsk, Russia). Method of Limiting Differential Inclusions for Discontinuous Systems.
-3. Elena Chistyakova (IDSCT SB RAS, Irkutsk, Russia). Solving a Heat Mass Transfer Problem Using Differential Algebraic Equations.
-4. Timur Yskak (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia).    About Exponential Stability of Solutions to Systems of Differential Equations of Neutral Type with Distributed Delay.
-5. Margarita V. Artemeva, M.O. Korpusov. (Lomonosov Moscow State University, Moscow, Russia). Blow up of Solutions and Local Solvability of an Abstract Cauchy Problem for Second-order Differential Equation with a Non-coercive Source.
-6. Nikolay Sidorov, Lev Sidorov (ISU, Irkutsk, Russia). On the Spectrum of One Class of Integral-Functional Operators in Solving Nonlinear Volterra Loaded Equations.
+3. Timur Yskak (Sobolev Institute of Mathematics SB RAS, Novosibirsk, Russia).    About Exponential Stability of Solutions to Systems of Differential Equations of Neutral Type with Distributed Delay.
+4. Margarita V. Artemeva, M.O. Korpusov. (Lomonosov Moscow State University, Moscow, Russia). Blow up of Solutions and Local Solvability of an Abstract Cauchy Problem for Second-order Differential Equation with a Non-coercive Source.
+5. Nikolay Sidorov, Lev Sidorov (ISU, Irkutsk, Russia). On the Spectrum of One Class of Integral-Functional Operators in Solving Nonlinear Volterra Loaded Equations.
+6. `r icons::fontawesome("video")` Andrey L. Ushakov (South Ural State University (National Research University), Chelyabinsk, Russia). Nonlinear Analysis Mixed Boundary Value Problem for the Sophie Germain Equation.
 
 ### Differential equations 3 {#de3}
 **Chair**: Anna Lempert.
@@ -197,13 +198,12 @@ Trip to Baikal
 1. `r icons::fontawesome("video")` Tamara G. Sukacheva (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). Oskolkov models and Sobolev-type equations in magnetohydrodynamics.
 2. `r icons::fontawesome("video")` Aleksey O. Kondyukov (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). The First Initial-boundary Value Problem for Oskolkov System of Nonzero Order.
 3. `r icons::fontawesome("video")` Alexandre Demidov (MSU, Moscow, Russia). Planar Flows with Minimal Ratio of the Extremal Values of the Pressure on the Free Boundary.
-4. `r icons::fontawesome("video")` Andrey L. Ushakov (South Ural State University (National Research University), Chelyabinsk, Russia). Nonlinear Analysis Mixed Boundary Value Problem for the Sophie Germain Equation.
-5. `r icons::fontawesome("video")` Aigul A. Mukhutdinova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia), A.D. Nizamova, V.N. Kireev, S.F. Urmancheev. Spectral Analysis of the Stability of Fluid Flow in an Annular Channel.
-6. `r icons::fontawesome("video")` Eric R. Shaihiev (USATU, Ufa, Russia), A.D. Nizamova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia). Fluid Storage Control with a Proportional-integrally Differentiating Solver.
-7. `r icons::fontawesome("video")` Karuppaiya Sakkaravarthi (Asia-Pacific Center for Theoretical Physics (APCTP),  Republic of Korea). Bright Solitons in a (2+1)-dimensional Oceanic Model: Dynamics, Interaction and Molecule Formation.
+4. `r icons::fontawesome("video")` Aigul A. Mukhutdinova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia), A.D. Nizamova, V.N. Kireev, S.F. Urmancheev. Spectral Analysis of the Stability of Fluid Flow in an Annular Channel.
+5. `r icons::fontawesome("video")` Eric R. Shaihiev (USATU, Ufa, Russia), A.D. Nizamova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia). Fluid Storage Control with a Proportional-integrally Differentiating Solver.
+6. `r icons::fontawesome("video")` Karuppaiya Sakkaravarthi (Asia-Pacific Center for Theoretical Physics (APCTP),  Republic of Korea). Bright Solitons in a (2+1)-dimensional Oceanic Model: Dynamics, Interaction and Molecule Formation.
 
 ### Differential-algebraic equations {#dae}
-**Chairs**: Щеглова Алла Аркадьевна, Svetlana V. Solodusha.
+**Chairs**: Alla Shcheglova, Svetlana V. Solodusha.
 
 1. Ekaterina Antipina (Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia), Mikhail Bulatov (IDSCT SB RAS, Irkutsk, Russia), Vitaly Biryukov. Block Integral Methods for the Numerical Solution of the Volterra Equation of the First Kind.
 2. Svetlana Svinina (IDSCT SB RAS, Irkutsk, Russia). On the Numerical Solution of Linear Multidimensional Differential-algebraic Systems.
