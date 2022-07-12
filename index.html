@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -422,10 +423,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1257,6 +1254,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1271,6 +1274,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1370,6 +1398,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1392,7 +1422,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2486,7 +2516,8 @@ distill-header .nav a {
 
 <div class="d-article">
 <h1 id="timetable">Timetable</h1>
-<h3 id="july-15-friday">July 15, Friday</h3>
+<p><em>UTC+8, Irkutsk local time</em></p>
+<h2 id="july-15-friday">July 15, Friday</h2>
 <table>
 <colgroup>
 <col style="width: 43%" />
@@ -2547,7 +2578,7 @@ Time</th>
 </tr>
 </tbody>
 </table>
-<h3 id="july-16-saturday">July 16, Saturday</h3>
+<h2 id="july-16-saturday">July 16, Saturday</h2>
 <table>
 <colgroup>
 <col style="width: 52%" />
@@ -2600,7 +2631,7 @@ Time</th>
 </tr>
 </tbody>
 </table>
-<h3 id="july-17-sunday">July 17, Sunday</h3>
+<h2 id="july-17-sunday">July 17, Sunday</h2>
 <table>
 <colgroup>
 <col style="width: 52%" />
@@ -2653,9 +2684,9 @@ Time</th>
 </tr>
 </tbody>
 </table>
-<h3 id="july-18-monday">July 18, Monday</h3>
+<h2 id="july-18-monday">July 18, Monday</h2>
 <p>Trip to Baikal</p>
-<h3 id="july-19-tuesday">July 19, Tuesday</h3>
+<h2 id="july-19-tuesday">July 19, Tuesday</h2>
 <table>
 <colgroup>
 <col style="width: 52%" />
@@ -2716,7 +2747,7 @@ Time</th>
 </tr>
 </tbody>
 </table>
-<h3 id="july-20-wednesday">July 20, Wednesday</h3>
+<h2 id="july-20-wednesday">July 20, Wednesday</h2>
 <table>
 <colgroup>
 <col style="width: 44%" />
@@ -2840,7 +2871,8 @@ measures</a></td>
 </tr>
 </tbody>
 </table>
-<h3 id="oc1">Optimal control 1</h3>
+<p><em>Each session talk is 20 minutes long.</em></p>
+<h2 id="oc1">Optimal control 1</h2>
 <p><strong>Chairs</strong>: Alexander Strekalovsky, Dmitry Khlopin.</p>
 <ol type="1">
 <li>Alexander Strekalovsky (IDSCT SB RAS, Irkutsk, Russia). On Nonconvex
@@ -2862,7 +2894,7 @@ V.I. Berdyshev, Viktor B. Kostousov, A.A. Popov (IMM UrB RAS,
 Yekaterinburg, Russia). Optimal Object Trajectories under Unfriendly
 Observation.</li>
 </ol>
-<h3 id="oc2">Optimal control 2</h3>
+<h2 id="oc2">Optimal control 2</h2>
 <p><strong>Chairs</strong>: Alexander Tyatyushkin, Alexander Y.
 Gornov.</p>
 <ol type="1">
@@ -2890,22 +2922,25 @@ Inhomogeneous Two-dimensional Bodies.</li>
 Igor’ Izmest’ev (IMM UrB RAS, Yekaterinburg, Russia). Grid Algorithm for
 Computing Reachability Sets with a Modified Reduction Procedure.</li>
 </ol>
-<h3 id="oc3">Optimal control 3</h3>
+<h2 id="oc3">Optimal control 3</h2>
 <p><strong>Chairs</strong>: Vladimir Dykhta, Nina N. Subbotina.</p>
 <ol type="1">
 <li>Vladimir Dykhta (IDSCT SB RAS, Irkutsk, Russia). Feedback minimum
 principle: variational strenthening of the concept of extremality in
 optimal control.</li>
-<li>Nina N. Subbotina, Evgenii F. Krupennikov (IMM UrB RAS, UrFU,
-Ekaterinburg, Russia). Stationary points of d.c. Lagrangians in solving
-inverse problems of the control theory.</li>
-<li>Boris Ananyev, Polina Yurovskikh (IMM UrB RAS, Yekaterinburg,
-Russia). Estimation Problem for Discrete Systems with Information
-Delays.</li>
 <li>Alexander Arguchintsev, Vasilisa Poplevko (Institute of Mathematics
 and Information Technologies, Irkutsk State University, Irkutsk,
 Russia). Variational Optimality Condition in Control of Hyperbolic
 Systems with Boundary Delay Parameters.</li>
+<li>Boris Ananyev, Polina Yurovskikh (IMM UrB RAS, Yekaterinburg,
+Russia). Estimation Problem for Discrete Systems with Information
+Delays.</li>
+<li><svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path>
+</svg>
+Nina N. Subbotina, Evgenii F. Krupennikov (IMM UrB RAS, UrFU,
+Ekaterinburg, Russia). Stationary points of d.c. Lagrangians in solving
+inverse problems of the control theory.</li>
 <li><svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path>
 </svg>
@@ -2925,7 +2960,7 @@ Chernogolovka, Russia). On the Right Invertibility of the Differential
 for the Equality Constraint Operator and the Implicit Function Theorem
 in a General Optimal Control Problem</li>
 </ol>
-<h3 id="de1">Differential equations 1</h3>
+<h2 id="de1">Differential equations 1</h2>
 <p><strong>Chairs</strong>: Inessa Matveeva, Valery Gaiko.</p>
 <ol type="1">
 <li>Inessa Matveeva (Sobolev Institute of Mathematics SB RAS,
@@ -2952,7 +2987,7 @@ Network-like Domain.</li>
 Maxim V. Shamolin (Lomonosov Moscow State University, Moscow, Russia).
 Tensor Invariants of Dynamical Systems with Dissipation.</li>
 </ol>
-<h3 id="de2">Differential equations 2</h3>
+<h2 id="de2">Differential equations 2</h2>
 <p><strong>Chairs</strong>: Alexander Kosov, Ivan A. Finogenko.</p>
 <ol type="1">
 <li>Alexander Kosov, Edward Semenov (IDSCT SB RAS, Irkutsk, Russia). On
@@ -2977,7 +3012,7 @@ Andrey L. Ushakov (South Ural State University (National Research
 University), Chelyabinsk, Russia). Nonlinear Analysis Mixed Boundary
 Value Problem for the Sophie Germain Equation.</li>
 </ol>
-<h3 id="de3">Differential equations 3</h3>
+<h2 id="de3">Differential equations 3</h2>
 <p><strong>Chair</strong>: Anna Lempert.</p>
 <ol type="1">
 <li><svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
@@ -3018,7 +3053,7 @@ lattices.</li>
 Anatoly Aristov (MSU, Moscow, Russia). Exact Solutions of a Nonclassical
 Nonlinear Partial Differential Equation.</li>
 </ol>
-<h3 id="dea1">Differential equations: applications 1</h3>
+<h2 id="dea1">Differential equations: applications 1</h2>
 <p><strong>Chair</strong>: Alexander Kazakov</p>
 <ol type="1">
 <li>Maria Skvortsova (Sobolev Institute of Mathematics SB RAS,
@@ -3049,7 +3084,7 @@ Viktor Korzyuk, Jan Rudzko (Belarusian State University, Minsk,
 Belarus). Classical Solution of the First Mixed Problem for the
 Telegraph Equation with a Nonlinear Potential.</li>
 </ol>
-<h3 id="dea2">Differential equations: applications 2</h3>
+<h2 id="dea2">Differential equations: applications 2</h2>
 <p><strong>Chair</strong>: Elena Chistyakova</p>
 <ol type="1">
 <li><svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
@@ -3090,8 +3125,8 @@ Karuppaiya Sakkaravarthi (Asia-Pacific Center for Theoretical Physics
 (APCTP), Republic of Korea). Bright Solitons in a (2+1)-dimensional
 Oceanic Model: Dynamics, Interaction and Molecule Formation.</li>
 </ol>
-<h3 id="dae">Differential-algebraic equations</h3>
-<p><strong>Chairs</strong>: Alla Shcheglova, Svetlana V. Solodusha.</p>
+<h2 id="dae">Differential-algebraic equations</h2>
+<p><strong>Chairs</strong>: Alla Shcheglova, Svetlana Svinina.</p>
 <ol type="1">
 <li>Ekaterina Antipina (Melentiev Energy Systems Institute SB RAS,
 Irkutsk, Russia), Mikhail Bulatov (IDSCT SB RAS, Irkutsk, Russia),
@@ -3111,7 +3146,7 @@ University, Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia).
 On an Analytical Solution of a Nonlinear Partial Differential
 Equation.</li>
 </ol>
-<h3 id="o1">Optimization 1</h3>
+<h2 id="o1">Optimization 1</h2>
 <p><strong>Chairs</strong>: Bazaragchaa Barsbold, Viktor F.
 Chistyakov.</p>
 <ol type="1">
@@ -3136,7 +3171,7 @@ of the chromatic number for a forbidden interval of distances.</li>
 Sergey Kabanikhin (Novosibirsk State University, Novosibirsk, Russia).
 Nonlinear Inverse Problems and Optimization.</li>
 </ol>
-<h3 id="o2">Optimization 2</h3>
+<h2 id="o2">Optimization 2</h2>
 <p><strong>Chair</strong>: Alexander Gornov.</p>
 <ol type="1">
 <li><svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
@@ -3181,7 +3216,7 @@ variables.</li>
 Akmal Mamatov (Samarkand state university, Samarkand, Uzbekistan). On
 the Theory of Game Problems with Connected Variables.</li>
 </ol>
-<h3 id="meas">Analysis and control in the space of measures</h3>
+<h2 id="meas">Analysis and control in the space of measures</h2>
 <p><strong>Chairs</strong>: Dmitrii Serkov, Dmitry Khlopin.</p>
 <ol type="1">
 <li>Dmitrii Serkov, Alexander Chentsov (IMM UrB RAS, Yekaterinburg,
@@ -3200,9 +3235,9 @@ equations.</li>
 <li>Nikolay Pogodaev, Maxim Staritsyn (IDSCT SB RAS, Irkutsk, Russia),
 Fernando Lobo Pereira. Exact increment formulas for optimal control in
 the space of probability measures.
-<!-- \framebox[1.0\width]{Fernando Lobo Pereira} --></li>
+<!-- \framebox[1.1\width]{Fernando Lobo Pereira} --></li>
 </ol>
-<h3 id="qc">Quantum control</h3>
+<h2 id="qc">Quantum control</h2>
 <p><strong>Chair</strong>: Oleg V. Morzhin.</p>
 <ol type="1">
 <li>Boris Volkov (Steklov Mathematical Institute RAS, Moscow, Russia),
