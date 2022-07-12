@@ -23,11 +23,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 \vspace{-25pt}
 
+### Zoom link
+
+Meeting ID: <!--[426 530 8219](https://us06web.zoom.us/j/4265308219 (Password: 465122))-->
+
+Passcode: <!--465122 -->
+
 # Timetable
 
 *UTC+8, Irkutsk local time*
 
-### July 15, Friday
+#### July 15, Friday
 
 | `r icons::fontawesome("clock")` Time          | Activity          |
 | ------------- | ----------------- |
@@ -146,7 +152,7 @@ Trip to Baikal
 6. `r icons::fontawesome("video")` Igor' Izmest'ev (IMM UrB RAS, Yekaterinburg, Russia). Grid Algorithm for Computing Reachability Sets with a Modified Reduction Procedure.
 
 ### Optimal control 3 {#oc3}
-**Chairs**: Vladimir Dykhta, Nina N. Subbotina.
+**Chairs**: Vladimir Dykhta, Stepan Sorokin.
 
 1. Vladimir Dykhta (IDSCT SB RAS, Irkutsk, Russia). Feedback minimum principle: variational strenthening of the concept of extremality in optimal control.
 2. Alexander Arguchintsev, Vasilisa Poplevko (Institute of Mathematics and Information Technologies, Irkutsk State University, Irkutsk, Russia). Variational Optimality Condition in Control of Hyperbolic Systems with Boundary Delay Parameters.
