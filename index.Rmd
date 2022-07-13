@@ -25,9 +25,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Zoom link
 
-Meeting ID: <!--[426 530 8219](https://us06web.zoom.us/j/4265308219 (Password: 465122))-->
+Meeting ID: [426 530 8219](https://us06web.zoom.us/j/4265308219)
 
-Passcode: <!--465122 -->
+Passcode: 465122
 
 # Timetable
 
@@ -237,12 +237,12 @@ Trip to Baikal
 
 | Time          | Talk                                                                                                                                                                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 15:10 | Ekaterina Antipina (Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia), Mikhail Bulatov (IDSCT SB RAS, Irkutsk, Russia), Vitaly Biryukov. Block Integral Methods for the Numerical Solution of the Volterra Equation of the First Kind. |
-| 15:30 | Svetlana Svinina (IDSCT SB RAS, Irkutsk, Russia). On the Numerical Solution of Linear Multidimensional Differential-algebraic Systems.                                                                                                           |
-| 15:50 | Liubov Solovarova (ISDCT SB RAS, Irkutsk, Russia), Ta Duy Phuong. On numerical solution of the second order differential-algebraic equations.                                                                                                    |
-| 16:10 | Alla A. Shcheglova. Impulse Response Matrix for Time-Varying System of Differential-Algebraic Equations.                                                                                                                                         |
-| 16:30 | Pavel Petrenko (IDSCT SB RAS, Irkutsk, Russia). A Note on Differential-algebraic Equations with Hysteresis Phenomena.                                                                                                                            |
-| 16:50 | E. Yu. Grazhdantseva, Svetlana V. Solodusha (Irkutsk State  University,  Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia). On an Analytical Solution of a Nonlinear Partial Differential Equation.                                    |
+| 10:10 | Ekaterina Antipina (Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia), Mikhail Bulatov (IDSCT SB RAS, Irkutsk, Russia), Vitaly Biryukov. Block Integral Methods for the Numerical Solution of the Volterra Equation of the First Kind. |
+| 10:30 | Svetlana Svinina (IDSCT SB RAS, Irkutsk, Russia). On the Numerical Solution of Linear Multidimensional Differential-algebraic Systems.                                                                                                           |
+| 10:50 | Liubov Solovarova (ISDCT SB RAS, Irkutsk, Russia), Ta Duy Phuong. On numerical solution of the second order differential-algebraic equations.                                                                                                    |
+| 11:10 | Alla A. Shcheglova. Impulse Response Matrix for Time-Varying System of Differential-Algebraic Equations.                                                                                                                                         |
+| 11:30 | Pavel Petrenko (IDSCT SB RAS, Irkutsk, Russia). A Note on Differential-algebraic Equations with Hysteresis Phenomena.                                                                                                                            |
+| 11:50 | E. Yu. Grazhdantseva, Svetlana V. Solodusha (Irkutsk State  University,  Melentiev Energy Systems Institute SB RAS, Irkutsk, Russia). On an Analytical Solution of a Nonlinear Partial Differential Equation.                                    |
 
 
 ### Optimization 1 {#o1}
