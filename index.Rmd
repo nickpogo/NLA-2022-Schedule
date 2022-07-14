@@ -64,17 +64,16 @@ Passcode: 465122
 
 ### July 17, Sunday
 
-| `r icons::fontawesome("clock")` Time | Activity                        |
-| -------------- | ------------------------------- |
-| 10:00 - 10:50                        | **V. Bogachev** (Lecture 2)     |
-| 10:50 - 11:10                        | Coffee break                    |
-| 11:10 - 12:00                        | **V. Bogachev** (Lecture 3)     |
-| 12:00 - 14:00                        | Lunch                           |
-| 14:00 - 14:50                        | **S. Shaposhnikov** (Lecture 2) |
-| 14:50 - 15:10                        | Coffee break                    |
-| 15:10 - 16:00                        | **S. Shaposhnikov** (Lecture 3) |
-| 16:00 - 16:30                        | Coffee break                    |
-| 16:30 - 18:30                        | [Sessions](#se)                 |
+| `r icons::fontawesome("clock")` Time | Activity             |
+| ------------------- | ------------------------------------------ |
+| 9:00 - 9:50    | **V. Bogachev** (Lecture 2)                |
+| 9:50 - 10:10   | Coffee break                               |
+| 10:10 - 11:00  | **V. Bogachev** (Lecture 3)                |
+| 11:00 - 11:50  | **S. Shaposhnikov** (Lecture 2)            |
+| 11:50 - 12:10  | Coffee break                               |
+| 12:10 - 13:00  | **S. Shaposhnikov** (Lecture 3)            |
+| 13:00 - 16:30  | Lunch                                      |
+| 16:30 - 18:30  | [Sessions](#se)                            |
 
 
 ### July 18, Monday
@@ -131,7 +130,7 @@ Trip to Baikal
 
 
 
-*Each session talk is 20 minutes long.*
+*Each session talk lasts for 20 minutes.*
 
 ### Optimal control 1 {#oc1}
 **Chairs**: Alexander Strekalovsky, Dmitry Khlopin.
