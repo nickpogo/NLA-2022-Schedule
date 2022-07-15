@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Zoom link
 
-Meeting ID: [426 530 8219](https://us06web.zoom.us/j/4265308219)
+Meeting ID: [426 530 8219](https://us06web.zoom.us/j/4265308219?pwd=bGJNY3ZKQmFPNXUzYUhKekdGOWd3QT09)
 
 Passcode: 465122
 
@@ -151,7 +151,7 @@ Trip to Baikal
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 16:30 | Alexander Tyatyushkin (ISDCT SB RAS, Irkutsk, Russia). Control optimization in systems with phase constraints.                                                                                                                      |
 | 16:50 | Alexander Y. Gornov, Tatyana Zarodnyuk (ISDCT SB RAS, Irkutsk, Russia). The Modiﬁed Monowave Method for the Reachable Set Approximation of the Nonlinear Controlled System on the Plane.                                            |
-| 17:10 | Olga Samsonyuk (ISDCT SB RAS, Irkutsk, Russia). TBA.                                                                                                                                                                                |
+| 17:10 | Olga Samsonyuk (ISDCT SB RAS, Irkutsk, Russia). A Scheme for Numerical  Solving of a Bilinear Optimal Impulsive Control Problem with Intermediate State Constraints.                                                                                                                                                                                |
 | 17:30 | `r icons::fontawesome("video")` Alexey N. Rogalev (Institute of computing modelling SB RAS, Krasnoyarsk, Russia). Numerical Estimation of the Boundaries of the Reachability Sets of Controlled Systems Based on Symbolic Formulas. |
 | 17:50 | `r icons::fontawesome("video")` Nyurgun Lazarev (North-Eastern Federal University, Yakutsk, Russia). Optimal Location of Rigid Inclusions in Contact Problems for Inhomogeneous Two-dimensional Bodies.                             |
 | 18:10 | `r icons::fontawesome("video")` Igor' Izmest'ev (IMM UrB RAS, Yekaterinburg, Russia). Grid Algorithm for Computing Reachability Sets with a Modified Reduction Procedure.                                                           |
@@ -277,7 +277,7 @@ Trip to Baikal
 | 16:30 | Dmitrii Serkov, Alexander Chentsov (IMM UrB RAS, Yekaterinburg, Russia). On a property of continuous dependence of sets in the space of measures.                                                               |
 | 16:50 | Yurii Averboukh,  Dmitry Khlopin (IMM UrB RAS, Yekaterinburg, Russia). Necessary optimality condition for deterministic mean field type control problem.                                                        |
 | 17:10 | Olga Yufereva (IMM UrB RAS, Yekaterinburg, Russia), Michael Persiianov, Pavel Dvurechensky, Alexander Gasnikov, Dmitry Kovalev. Decentralized Computation of Wasserstein Barycenter over Time-Varying Networks. |
-| 17:30 | Nikolay Podogaev (ISDCT SB RAS, Irkutsk, Russia), Maxim Staritsyn. Numerical solution of optimal control problems for nonlocal continuity equations.                                                            |
+| 17:30 | Nikolay Podogaev (ISDCT SB RAS, Irkutsk, Russia), Maxim Staritsyn, Roman Chertovskih. Numerical solution of optimal control problems for nonlocal continuity equations.                                                            |
 | 17:50 | Nikolay Pogodaev, Maxim Staritsyn (ISDCT SB RAS, Irkutsk, Russia), Fernando Lobo Pereira. Exact increment formulas for optimal control in the space of probability measures.                                    |
 
 <!-- \framebox[1.1\width]{Fernando Lobo Pereira} -->
