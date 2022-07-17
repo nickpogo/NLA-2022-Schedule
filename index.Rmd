@@ -227,9 +227,11 @@ Trip to Baikal
 | 16:30 | `r icons::fontawesome("video")` Tamara G. Sukacheva (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). Oskolkov models and Sobolev-type equations in magnetohydrodynamics.                                           |
 | 16:50| `r icons::fontawesome("video")` Aleksey O. Kondyukov (The Yaroslav-the-Wise Novgorod State University (NovSU), Veliky Novgorod, Russia). The First Initial-boundary Value Problem for Oskolkov System of Nonzero Order.                               |
 | 17:10 | `r icons::fontawesome("video")` Alexandre Demidov (MSU, Moscow, Russia). Planar Flows with Minimal Ratio of the Extremal Values of the Pressure on the Free Boundary.                                                                                 |
-| 17:30 | `r icons::fontawesome("video")` Aigul A. Mukhutdinova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia), A.D. Nizamova, V.N. Kireev, S.F. Urmancheev. Spectral Analysis of the Stability of Fluid Flow in an Annular Channel. |
+| 17:30 | `r icons::fontawesome("video")` Vyacheslav V. Provotorov (Voronezh State University, Voronezh, Russia), Semen L. Podvalny (Voronezh State Technical University, Voronezh, Russia). Navier-Stokes Evolutionary System with Spatial Variable in a Network-like Domain. |
 | 17:50 | `r icons::fontawesome("video")` Eric R. Shaihiev (USATU, Ufa, Russia), A.D. Nizamova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia). Fluid Storage Control with a Proportional-integrally Differentiating Solver.          |
 | 18:10 | `r icons::fontawesome("video")` Karuppaiya Sakkaravarthi (Asia-Pacific Center for Theoretical Physics (APCTP),  Republic of Korea). Bright Solitons in a (2+1)-dimensional Oceanic Model: Dynamics, Interaction and Molecule Formation.               |
+
+<!-- `r icons::fontawesome("video")` Aigul A. Mukhutdinova (Mavlyutov Institute of Mechanics, Ufa Investigation Center, RAS, Russia), A.D. Nizamova, V.N. Kireev, S.F. Urmancheev. Spectral Analysis of the Stability of Fluid Flow in an Annular Channel. -->
 
 ### Differential-algebraic equations {#dae}
 **Chairs**: Alla A. Shcheglova, Svetlana Svinina.
